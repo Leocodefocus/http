@@ -1,0 +1,21 @@
+{
+    "name": "leo/http",
+    "description": "CURL HTTP",
+    "type": "library",
+    "require": {
+        "php": ">=5.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leocodefocus",
+            "email": "837567340@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4":{
+            "Leocodefocus\\http\\": "src/http/lib"
+        }
+    }
+}
